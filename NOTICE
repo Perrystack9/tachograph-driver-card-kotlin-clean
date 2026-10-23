@@ -1,0 +1,27 @@
+Driver Card Parser & Android USB Library
+Developed by RN3
+https://rn3.de
+Copyright 2026 RN3
+
+RN3-owned project code, documentation and original project graphics are licensed
+under the Apache License, Version 2.0. See LICENSE. This NOTICE is informational;
+it does not change the license or add an application-UI attribution requirement.
+The owner identifies the inherited FahrerTagebuch project as their own private
+work. Existing upstream copyright and attribution notices are retained.
+
+Runtime dependencies are resolved separately, not bundled or relicensed:
+Kotlin standard library and kotlinx.coroutines (JetBrains, Apache-2.0), and
+Bouncy Castle bcprov (The Legion of the Bouncy Castle Inc., Bouncy Castle License).
+
+No original ERCA public keys or public JRC certificate fixtures are distributed.
+Gen1 recovery material is supplied by the integrating application, under the
+terms applicable to that material. Official source links and format guidance
+are in docs/KEY_MATERIAL.md. Synthetic test keys are not trusted certificates.
+
+Gradle 8.13 wrapper JAR and launchers are upstream Apache-2.0 tooling.
+Existing launcher copyright headers are retained. The Gradle distribution,
+Android SDK and JDK are not redistributed with this project.
+
+Test-only JUnit 4.13.2 uses EPL-1.0; Hamcrest Core 1.3 uses BSD-3-Clause.
+Their upstream license texts are retained under licenses/. No JUnit or Hamcrest
+binary is bundled into the production library artifacts.

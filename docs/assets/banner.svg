@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title desc">
+<title id="title">Driver Card Library — From the road to your code</title>
+<desc id="desc">A modern articulated truck on a night highway with RN3 lettering on its trailer. Kotlin parsing, Android USB and signature mathematics.</desc>
+<!-- Original project artwork. Modified in 2026: simplified trailer lettering and removed surrounding origin branding. Apache-2.0. -->
+<defs>
+ <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#0c1726"/><stop offset=".6" stop-color="#152b40"/><stop offset="1" stop-color="#304b5d"/></linearGradient>
+ <linearGradient id="trailer" x2=".8" y2="1"><stop stop-color="#dde7ed"/><stop offset=".55" stop-color="#a9becb"/><stop offset="1" stop-color="#7693a7"/></linearGradient>
+ <linearGradient id="cab" x2="1" y2="1"><stop stop-color="#ffc083"/><stop offset=".55" stop-color="#ef914a"/><stop offset="1" stop-color="#ba6234"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#304f64"/><stop offset="1" stop-color="#0a1d2e"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#142537"/><stop offset="1" stop-color="#08111d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f5b579" stop-opacity=".13"/><stop offset="1" stop-color="#f5b579" stop-opacity="0"/></radialGradient>
+ <clipPath id="frame"><rect width="1440" height="560" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1440" height="560" fill="url(#sky)"/>
+<ellipse cx="1180" cy="230" rx="390" ry="290" fill="url(#glow)"/>
+<!-- Abstract horizon and highway, without a real location or route. -->
+<path d="M670 311 825 279l157 10 107-39 163 30 188-23v166H650Z" fill="#294457" opacity=".32"/>
+<path d="M715 352c240-9 440-46 725-21v229H0V458c231 3 385-91 715-106Z" fill="url(#road)"/>
+<path d="M0 490c394-30 641-143 1440-98" fill="none" stroke="#8ca9b9" stroke-width="2" opacity=".22"/>
+<path d="M-30 574c492-81 749-146 1500-115" fill="none" stroke="#f3d0a7" stroke-width="4" stroke-dasharray="92 64" opacity=".52"/>
+<path d="M968 74h124m-124 9h58" stroke="#88b3ca" stroke-width="1" opacity=".22"/>
+<circle cx="1302" cy="99" r="2" fill="#b7cedb" opacity=".6"/>
+<!-- Editorial title block. -->
+<g font-family="DejaVu Sans,Arial,sans-serif">
+ <path d="M60 54h31" stroke="#ffad66" stroke-width="3" stroke-linecap="round"/>
+ <text x="104" y="59" fill="#c2d2dd" font-size="12" font-weight="700" letter-spacing="2.4">DIGITAL TACHOGRAPH / DRIVER CARDS</text>
+ <text x="55" y="163" fill="#f5f2e9" font-size="72" font-weight="700" letter-spacing="-2.6">Driver Card</text>
+ <text x="55" y="244" fill="#f5f2e9" font-size="72" font-weight="700" letter-spacing="-2.6">Library<tspan fill="#ffad66">.</tspan></text>
+ <text x="60" y="291" fill="#ffbc83" font-size="23">From the road to your code.</text>
+ <text x="60" y="328" fill="#bdd0dd" font-size="17">Kotlin parser · Android USB · Signature mathematics</text>
+ <g fill="#1d3449" stroke="#3e596c"><rect x="60" y="360" width="76" height="29" rx="6"/><rect x="144" y="360" width="76" height="29" rx="6"/><rect x="228" y="360" width="96" height="29" rx="6"/></g>
+ <g fill="#cddce5" font-size="12" font-weight="700"><text x="75" y="379">GEN1</text><text x="159" y="379">GEN2</text><text x="242" y="379">GEN2V2</text></g>
+</g>
+<!-- Original generic European articulated truck. No manufacturer branding. -->
+<g transform="translate(690 152)">
+ <ellipse cx="351" cy="267" rx="331" ry="19" fill="#030c17" opacity=".5"/>
+ <!-- Trailer body and side rails. -->
+ <path d="M24 48q0-10 10-10h463v171H24Z" fill="url(#trailer)"/>
+ <path d="M24 48q0-10 10-10h463v8H24" fill="#f5f2e9" opacity=".65"/>
+ <path d="M497 38h9v171h-9" fill="#52748b"/>
+ <path d="M28 202h470v9H28" fill="#e9b078"/>
+ <path d="M33 48v151m457-151v151" stroke="#65899e" stroke-width="2" opacity=".55"/>
+ <path d="M43 65h432" stroke="#f7fafc" opacity=".3"/>
+ <!-- The trailer carries only the requested RN3 lettering. -->
+ <text x="263" y="147" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="4" fill="#28485e">RN3</text>
+ <!-- Underframe, landing leg and tractor chassis. -->
+ <path d="M32 218h574v14H32Z" fill="#182a3b"/><path d="M342 218v23m-9 0h18" stroke="#7b95a7" stroke-width="4"/>
+ <path d="M58 232h134m60 0h48" stroke="#7894a8" stroke-width="5"/>
+ <rect x="388" y="226" width="54" height="24" rx="5" fill="#7d98aa"/>
+ <path d="M453 206h73l22 13h-95" fill="#0b1929"/>
+ <!-- High-roof cab, door and front corner. -->
+ <path d="M522 92q1-17 19-17h52q14 0 21 13l29 47v95H522Z" fill="url(#cab)"/>
+ <path d="M542 77h49q14 0 22 15h-78Z" fill="#ffd29d"/>
+ <path d="M532 108h59l21 38h-80Z" fill="url(#glass)"/>
+ <path d="m595 108 24 34h13l-17-32Z" fill="#152d40"/>
+ <path d="M532 108h59" stroke="#d8e7ed" stroke-width="2" opacity=".65"/>
+ <path d="M578 111v32" stroke="#d39565" stroke-width="4"/>
+ <path d="M531 154v61h55m6-62v62" stroke="#b4683e" stroke-width="1.5" fill="none"/>
+ <path d="M536 159h15" stroke="#1b3043" stroke-width="3" stroke-linecap="round"/>
+ <path d="M613 101h20v43h10" stroke="#112639" stroke-width="4" fill="none" stroke-linecap="round"/>
+ <rect x="623" y="109" width="10" height="20" rx="3" fill="#263e50"/>
+ <path d="M609 162h34v37h-34Z" fill="#1b2f41"/>
+ <path d="M615 169h23m-23 7h23m-23 7h23m-23 7h23" stroke="#587789" stroke-width="2"/>
+ <path d="M607 207h36v17h-36" fill="#dbe7e9"/>
+ <path d="M611 211h25" stroke="#fff5d9" stroke-width="4"/>
+ <path d="M530 226h26m-26-7h26" stroke="#afc1c9" stroke-width="3"/>
+ <path d="M575 233a31 31 0 0 1 62 0" fill="#0c1b2b"/>
+ <!-- Five visible axle wheels. -->
+ <g fill="#091321" stroke="#2b4052" stroke-width="3"><circle cx="88" cy="241" r="23"/><circle cx="141" cy="241" r="23"/><circle cx="194" cy="241" r="23"/><circle cx="471" cy="241" r="23"/><circle cx="605" cy="241" r="23"/></g>
+ <g fill="#a6bdca" stroke="#47657a" stroke-width="4"><circle cx="88" cy="241" r="12"/><circle cx="141" cy="241" r="12"/><circle cx="194" cy="241" r="12"/><circle cx="471" cy="241" r="12"/><circle cx="605" cy="241" r="12"/></g>
+ <g fill="#324e63"><circle cx="88" cy="241" r="4"/><circle cx="141" cy="241" r="4"/><circle cx="194" cy="241" r="4"/><circle cx="471" cy="241" r="4"/><circle cx="605" cy="241" r="4"/></g>
+ <g fill="#ffad66"><rect x="32" y="207" width="6" height="4" rx="1"/><rect x="230" y="207" width="6" height="4" rx="1"/><rect x="441" y="207" width="6" height="4" rx="1"/></g>
+</g>
+<path d="M0 559h1440" stroke="#ffad66" stroke-width="3"/>
+</g></svg>

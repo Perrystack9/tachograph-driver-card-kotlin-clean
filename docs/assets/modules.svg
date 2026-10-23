@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
+<title id="title">Module boundaries</title><desc id="desc">Your Android application depends on card-usb-android, which exposes card-core. Your app owns permissions and lifecycle. USB transport handles CCID and APDU I/O. The core decodes EF bytes and checks signature mathematics without evaluating certificate trust.</desc>
+<rect width="1120" height="280" rx="16" fill="#0c1726"/>
+<!-- Project accent palette updated in 2026 to match the road-transport identity. -->
+<g font-family="DejaVu Sans,Arial,sans-serif">
+<text x="28" y="35" fill="#9ab8cf" font-size="12" letter-spacing="2">DEPENDENCY DIRECTION</text>
+<g fill="#1b3043" stroke="#375775"><rect x="28" y="59" width="304" height="163" rx="12"/><rect x="408" y="59" width="304" height="163" rx="12"/><rect x="788" y="59" width="304" height="163" rx="12"/></g>
+<g fill="#ffad66" font-size="12" font-weight="700"><text x="49" y="86">HOST APPLICATION</text><text x="429" y="86">ANDROID · API 26+</text><text x="809" y="86">KOTLIN / JVM · JAVA 17</text></g>
+<g fill="#f5f2e9" font-size="22" font-weight="700"><text x="49" y="124">Your Android app</text><text x="429" y="124">card-usb-android</text><text x="809" y="124">card-core</text></g>
+<g fill="#b4cbdc" font-size="14"><text x="49" y="163">USB permission and lifecycle</text><text x="49" y="188">Storage and presentation</text><text x="429" y="163">USB Host CCID transport</text><text x="429" y="188">APDU exchange and diagnostics</text><text x="809" y="163">EF decoding and card reading</text><text x="809" y="188">Signature mathematics</text></g>
+<text x="28" y="255" fill="#9ab8cf" font-size="13">EF contents, not a complete DDD container. Certificate trust: NOT_EVALUATED.</text>
+</g><g fill="none" stroke="#ffad66" stroke-width="2"><path d="M347 140h45l-8-7m8 7-8 7M727 140h45l-8-7m8 7-8 7"/></g></svg>

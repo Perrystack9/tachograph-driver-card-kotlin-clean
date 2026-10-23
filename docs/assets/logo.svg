@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<title id="title">Driver Card Library logo</title><desc id="desc">An articulated truck with RN3 lettering on the trailer and a highway lane, in navy and warm amber.</desc>
+<!-- Original project artwork. Modified in 2026: simplified trailer lettering. Apache-2.0. -->
+<rect width="160" height="160" rx="34" fill="#0c1726"/>
+<path d="M22 119h116" stroke="#ffad66" stroke-width="2" opacity=".6"/>
+<path d="M31 133h18m21 0h20m20 0h18" stroke="#9ab8ca" stroke-width="3" stroke-linecap="round"/>
+<rect x="22" y="46" width="78" height="51" rx="6" fill="#dbe7ed"/>
+<path d="M103 62h21l14 21v23h-35Z" fill="#ffad66"/>
+<path d="M110 69h11l9 15h-20Z" fill="#1e3b51"/>
+<path d="M24 100h110v8H24Z" fill="#48677d"/>
+<text x="61" y="81" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing=".5" fill="#28485e">RN3</text>
+<g fill="#0c1726" stroke="#8ba9bc" stroke-width="3"><circle cx="40" cy="107" r="10"/><circle cx="64" cy="107" r="10"/><circle cx="121" cy="107" r="10"/></g>
+<g fill="#dbe7ed"><circle cx="40" cy="107" r="3"/><circle cx="64" cy="107" r="3"/><circle cx="121" cy="107" r="3"/></g>
+</svg>
