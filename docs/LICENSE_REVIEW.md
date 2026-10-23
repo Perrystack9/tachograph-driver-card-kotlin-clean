@@ -78,4 +78,4 @@ the previous key-bearing preparation history. See
 Public source availability is separate from package distribution. No public
 package-publishing endpoint or upload credential is configured in this project.
 The supplied Maven tasks publish only to a local development cache; the technical
-version remains `0.1.0-SNAPSHOT`.
+version is `0.1.0`.

@@ -17,8 +17,8 @@ artifact hashes and POM license metadata.
 | `junit:junit:4.13.2` | Tests only | Versioned POM and JAR's `LICENSE-junit.txt`: EPL-1.0 | Retain EPL terms; if redistributing JUnit binaries, comply with its source-availability obligations; JUnit is not bundled here |
 | `org.hamcrest:hamcrest-core:1.3` | Tests only, via JUnit | Versioned parent POM and JAR's `LICENSE.txt`: BSD-3-Clause | Retain copyright, conditions and disclaimer; no endorsement using upstream names |
 
-The two project coordinates are `de.fahrertagebuch:card-core:0.1.0-SNAPSHOT` and
-`de.fahrertagebuch:card-usb-android:0.1.0-SNAPSHOT`. Their project-owned code is licensed under Apache-2.0. No original ERCA material
+The two project coordinates are `de.fahrertagebuch:card-core:0.1.0` and
+`de.fahrertagebuch:card-usb-android:0.1.0`. Their project-owned code is licensed under Apache-2.0. No original ERCA material
 is distributed. They are not independently licensed third parties.
 
 No runtime Maven dependency in this resolved graph is GPL/LGPL. Test-only EPL

@@ -16,8 +16,8 @@ android {
 }
 kotlin { jvmToolchain(17) }
 dependencies {
-    implementation("de.fahrertagebuch:card-core:0.1.0-SNAPSHOT")
-    implementation("de.fahrertagebuch:card-usb-android:0.1.0-SNAPSHOT")
+    implementation("de.fahrertagebuch:card-core:0.1.0")
+    implementation("de.fahrertagebuch:card-usb-android:0.1.0")
     testImplementation("junit:junit:4.13.2")
 }
 // Evidence task: resolve only the published module coordinates and their transitive JARs.

@@ -30,10 +30,10 @@ performs these checks from a fresh checkout and records their results.
 
 ## Distribution scope
 
-Public source availability does not publish a version to a package registry.
-The technical version remains `0.1.0-SNAPSHOT`. Maven publication tasks target
-only a local development cache. No public package upload or GitHub Release is
-part of the verification workflow.
+GitHub releases provide tagged source archives. They do not publish a version
+to a package registry. The technical version is `0.1.0`. Maven publication
+tasks target only a local development cache. No public package upload, tagging
+or GitHub Release publication is part of the verification workflow.
 
 The original private application and earlier preparation repositories are
 separate from this repository. Their history must not be merged or imported

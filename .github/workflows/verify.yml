@@ -75,8 +75,8 @@ jobs:
               rows.append(f"| {label} | {errors} errors; {warnings} warnings |")
           ns = {"m": "http://maven.apache.org/POM/4.0.0"}
           for module, extension in [("card-core", "jar"), ("card-usb-android", "aar")]:
-              directory = Path(os.environ["RUNNER_TEMP"]) / "driver-card-maven/de/fahrertagebuch" / module / "0.1.0-SNAPSHOT"
-              stem = module + "-0.1.0-SNAPSHOT"
+              directory = Path(os.environ["RUNNER_TEMP"]) / "driver-card-maven/de/fahrertagebuch" / module / "0.1.0"
+              stem = module + "-0.1.0"
               pom = ET.parse(directory / (stem + ".pom")).getroot()
               assert pom.findtext("m:url", namespaces=ns) == "https://github.com/Perrystack9/tachograph-driver-card-kotlin-clean"
               assert "Apache License, Version 2.0" in pom.findtext("m:licenses/m:license/m:name", namespaces=ns)

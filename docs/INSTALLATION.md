@@ -41,7 +41,8 @@ No Android classes are required by the core.
 
 Run both `publishToMavenLocal` tasks in the project, then depend on the local Maven
 coordinates shown in the README. This writes only to your machine's Maven cache;
-there is no remote repository, upload credential or public release configuration.
+there is no remote Maven repository or package-upload credential configured.
+GitHub releases provide tagged source archives; they are not a Maven repository.
 
 Retain the generated POM/module metadata. A standalone AAR does not embed the core,
 Kotlin, coroutines or Bouncy Castle. Keep their notices when distributing an app.

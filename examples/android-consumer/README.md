@@ -8,8 +8,8 @@ reference, source directory from the library, or original application component.
 It depends on both libraries only by their documented Maven coordinates:
 
 ```kotlin
-implementation("de.fahrertagebuch:card-core:0.1.0-SNAPSHOT")
-implementation("de.fahrertagebuch:card-usb-android:0.1.0-SNAPSHOT")
+implementation("de.fahrertagebuch:card-core:0.1.0")
+implementation("de.fahrertagebuch:card-usb-android:0.1.0")
 ```
 
 ## Reproduce

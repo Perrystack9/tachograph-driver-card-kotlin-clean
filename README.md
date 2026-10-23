@@ -12,7 +12,7 @@ Android USB Host transport, usable independently of the original application.
 
 ![Kotlin 2.1.20 · Android API 26+ · Java 17 · Apache 2.0 project code](docs/assets/platforms.svg)
 
-> **Source availability:** open source on GitHub; technical version `0.1.0-SNAPSHOT`.
+> **Version:** `0.1.0` · [GitHub releases](https://github.com/Perrystack9/tachograph-driver-card-kotlin-clean/releases).
 > No public package registry is configured. No original ERCA keys are bundled.
 > Gen1 signature mathematics needs application-supplied public recovery keys;
 > see [key provisioning](docs/KEY_MATERIAL.md).
@@ -71,8 +71,8 @@ dependency repositories, then use:
 
 ```kotlin
 dependencies {
-    implementation("de.fahrertagebuch:card-core:0.1.0-SNAPSHOT")
-    implementation("de.fahrertagebuch:card-usb-android:0.1.0-SNAPSHOT")
+    implementation("de.fahrertagebuch:card-core:0.1.0")
+    implementation("de.fahrertagebuch:card-usb-android:0.1.0")
 }
 ```
 
